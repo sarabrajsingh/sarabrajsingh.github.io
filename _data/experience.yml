@@ -2,17 +2,32 @@
 - company: Ambassador Labs
   position: Software Engineer
   duration: Jun, 2023 &mdash; Nov, 2023
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+  summary: >
+    Within a condensed timeframe of 6 weeks, I spearheaded the development of the JetBrains Telepresence plugin from its conceptualization to its successful deployment. 
+    My role involved meticulous oversight of the iterative development process to ensure the plugin's strict adherence to specifications, its timely publication, and its readiness for production within JetBrains IDE. 
+    Additionally, I tackled customer and open-source issues concerning the Telepresence CLI tool, implementing resolutions efficiently. 
+    I also carried out essential code maintenance tasks and bug fixes for both Telepresence and Telepresence Pro platforms. 
+    Managing the continuous integration and continuous deployment (CI/CD) scripts on GitHub Actions was part of my responsibilities, along with conducting thorough code reviews for changes impacting Telepresence CLI and Telepresence Plugin for JetBrains repositories.
 
 - company: Posit PBC
   position: Software Engineer
   duration:  Aug, 2022 &mdash; Jun, 2023
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+  summary: >
+    I helped lead the technical direction for features and development across the Posit Connect and Connect-Setup platforms, driving decisions and ensuring alignment with objectives. 
+    Utilizing Golang, I meticulously maintained and updated the RESTful APIs within both platforms. Proactively addressing technical debt in the Posit Connect Platform, 
+    I automated and integrated various codebase areas into CI/CD platforms, streamlining processes. 
+    Handling escalated bugs through customer support, I provided efficient troubleshooting and resolutions. 
+    Additionally, I served as a mentor to junior Software Engineers, imparting best coding practices and debugging techniques. 
+    Furthermore, I authored comprehensive guides, tutorials, and meticulously maintained internal and external documentation for the Posit Connect product, ensuring clarity and accessibility for users.
 
 - company: Red Hat Inc.
   position: Software Engineer
   duration:   Apr, 2021  &mdash; Nov, 2022
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  summary: >
+    I undertook backend engineering responsibilities for maintaining and improving the Ansible Tower platform, employing Django, Postgres, and Python technologies. 
+    This involved implementing new features using Python and Ansible while also addressing bug fixes and client support tickets. As part of my role, I mentored Junior Software Engineers who were new to the Ansible Tower platform and Ansible Engineering. 
+    I actively contributed to the design and implementation of new features within Ansible Tower, and I made valuable open-source contributions to both upstream Ansible and Ansible Tower projects. 
+    Additionally, I played a part in the development of the Receptor backend platform using Golang, and I contributed to the Ansible Automation Platform Collection platform utilizing Ansible technology.
 
 - company: Red Hat Inc.
   position: Senior Consultant
