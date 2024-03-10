@@ -10,3 +10,39 @@
 # # Digital content development and creation
 # - skill: Digital content development and creation
 #   description: Copy writing, graphic design, web design, front-end web development, print design
+
+- skill: golang
+  description: Golang Logo
+  svg_link: "https://www.vectorlogo.zone/logos/golang/golang-icon.svg"
+
+- skill: java
+  description: Java Logo
+  svg_link: "https://www.vectorlogo.zone/logos/java/java-ar21.svg"
+
+- skill: python
+  description: Python Logo
+  svg_link: "https://www.vectorlogo.zone/logos/python/python-ar21.svg"
+
+- skill: kubernetes
+  description: Kubernetes Logo
+  svg_link: "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-ar21.svg"
+
+- skill: aws
+  description: AWS Logo
+  svg_link: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"
+
+- skill: gcp
+  description: GCP Logo
+  svg_link: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-ar21.svg"
+
+- skill: terraform
+  description: Terraform Logo
+  svg_link: "https://www.vectorlogo.zone/logos/terraformio/terraformio-ar21.svg"
+
+- skill: ansible
+  description: Ansible Logo
+  svg_link: "https://www.vectorlogo.zone/logos/ansible/ansible-ar21.svg"
+
+- skill: rust
+  description: Rust Logo
+  svg_link: "https://www.vectorlogo.zone/logos/rust-lang/rust-lang-ar21.svg"

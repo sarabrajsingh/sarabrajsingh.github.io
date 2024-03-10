@@ -79,7 +79,14 @@
         {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
+          {% if education.link %}
+          <a href={{ education.link }} class="resume-item-details group" itemprop="url" itemprop="edu-website">
+            <h4 class="resume-item-details group" itemprop="description">{{ education.degree }}</h4>
+          </a>
+          {% else %}
+          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }}</h4>
+          {% endif %}
+          <h4 class="resume-item-details group" itemprop="description">{{ education.year }}</h4>
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
@@ -124,12 +131,13 @@
         <header class="section-header">
           <h2>Skills</h2>
         </header>
-        {% for skill in site.data.skills %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
-        </div>
+        {% for skill in site.data.skills %}
+          <!-- <h4 class="resume-item-details">{{ skill.skill }}</h4>
+          <p class="resume-item-copy">{{ skill.description }}</p> -->
+          <img src={{ skill.svg_link }} alt={{ skill.description }}>
         {% endfor %}
+        </div>
 
       </section>
       <!-- end Skills -->
