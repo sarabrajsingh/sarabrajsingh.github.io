@@ -32,19 +32,41 @@
 - company: Red Hat Inc.
   position: Senior Consultant
   duration:   Sep, 2019  &mdash; Apr, 2021
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  summary: >
+    I orchestrated the design and integration of Ansible playbooks for automating infrastructure deployment, ensuring adaptability for future enhancements. 
+    Furthermore, I spearheaded the design, implementation, and ongoing maintenance efforts for Openshift 3/4 clusters. 
+    This involved executing RHEL 7/8 implementation and maintenance tasks as well as integrating Portworx-as-a-service into Openshift environments. 
+    In addition, I delivered comprehensive client training sessions on the adoption and integration of newly implemented technologies into support workflows. 
+    To address specific client requirements, I developed custom Ansible modules, encapsulating edge and corner cases within workflows. 
+    Additionally, I managed the implementation and administration of Ansible Tower and specialized in diagnosing and resolving Openshift cluster failure states, ensuring seamless operation.
 
 - company: National Bank of Canada
   position: DevOPs Engineer
   duration:   Jun, 2018  &mdash; Sep, 2019
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  summary: >
+    I performed exploratory analysis with Apache Kafka, creating producer, consumer, streams, and connect classes in Java. 
+    I designed and implemented Jenkins pipelines for CI/CD, focusing on GCP and AWS environments for RESTful APIs. 
+    Additionally, I specialized in custom routing using ORY AuthKeeper and Envoy for container models. 
+    I developed RESTful APIs with Django, Flask, and Springboot, incorporating tests into deployment stacks. 
+    Across projects, I utilized git flow, Docker for serverless deployments, and Docker Swarm for non-Kubernetes setups. 
+    I automated IaaS with Terraform and deployed microservices with Ansible playbooks. I scripted in Python, Groovy, Bash, Maven, and Powershell for CI pipelines. 
+    I adapted projects to agile/DevOps and designed deployment pipelines for cloud platforms, emphasizing Kubernetes. 
+    I crafted Kubernetes deployment files for cloud-agnostic deployments and assisted in designing cloud-ready, microservice-based projects. 
+    Additionally, I deployed on-premise stacks with Ansible and Docker Compose.
 
 - company: McKinsey & Company (Pricemetrix)
   position: DevOPs Engineer
   duration:   Jun, 2017  &mdash; Jun, 2018
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  summary: >
+    I established Bamboo build pipelines, integrating pipeline-as-code and infrastructure-as-code concepts, reducing CI/CD time. 
+    Managed server stacks for deployments and facilitated the codebase's transition to CI/CD. 
+    Handled SVN branches, devised a branching strategy, and developed C# and PowerShell utilities. 
+    Authored technical documentation and provided ongoing maintenance for the core application's deployment.
 
 - company: Royal Bank of Canada
   position: Technical Systems Analyst
   duration:   Jun, 2015  &mdash; Jun, 2017
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+  summary: >
+    I managed deployment processes using IBM UrbanCode and Jenkins, provided cross-functional support for web applications, and facilitated communication between technical and business teams. 
+    I automated software tasks with PowerShell and Bash scripts, managed databases with SQL, and automated ETL processes with SSIS. 
+    Additionally, I handled enterprise application packaging and data movement, conducted training sessions, analyzed network traffic, configured IIS management, remediated security vulnerabilities, coordinated project roll-outs, and troubleshooted server issues.
