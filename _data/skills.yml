@@ -70,3 +70,7 @@
 - skill: mongoDB
   description: mongoDB
   svg_link: "https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
+
+- skill: spring
+  description: Spring
+  svg_link: "https://www.vectorlogo.zone/logos/springio/springio-ar21.svg"
