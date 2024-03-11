@@ -2,11 +2,11 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-# - project: jazznotes.io
-#   role: Founder & Primary Developer
-#   duration: 2012 &mdash; Present
-#   # url: "#"
-#   description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Telepresence Plugin for the Jetbrains IDE
+  role: Co-Lead Engineer
+  duration: 2023
+  url: "https://plugins.jetbrains.com/plugin/22844-telepresence"
+  description: Helped design and create the Telepresence Plugin for the JetBrains IDE
 
 # # Springfield Community Outreach Group
 # - project: Springfield Community Outreach Group

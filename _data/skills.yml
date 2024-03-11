@@ -74,3 +74,11 @@
 - skill: spring
   description: Spring
   svg_link: "https://www.vectorlogo.zone/logos/springio/springio-ar21.svg"
+
+- skill: rhel
+  description: Red Hat
+  svg_link: "https://www.vectorlogo.zone/logos/redhat/redhat-ar21.svg"
+
+- skill: telepresence
+  description: Telepresence
+  svg_link: "https://www.vectorlogo.zone/logos/telepresenceio/telepresenceio-ar21.svg"
