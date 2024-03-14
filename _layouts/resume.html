@@ -120,8 +120,32 @@
         </div>
         {% endfor %}
 
-      </section>
-      <!-- end Projects -->
+        {% if site.resume_section_certifications %}
+        <!-- begin Certifications -->
+        <section class="content-section">
+          <header class="section-header">
+            <h2>Certifications</h2>
+          </header>
+  
+          {% for certification in site.data.certifications %}
+          <div class="resume-item" itemscope itemtype="http://schema.org/Certification">
+            <h3 class="resume-item-title" itemprop="cert-name">
+              {% if certification.issuer.url %}
+              <a href="{{ certification.issuer.url }}" itemprop="url">
+                <img src="{{ certification.badgeUrl }}" alt="{{ certification.name }} Badge" class="cert-badge" style="width: 20px; height: auto;">
+                {{ certification.name }}
+              </a>
+              {% else %}
+              <img src="{{ certification.badgeUrl }}" alt="{{ certification.name }} Badge" class="cert-badge" style="width: 20px; height: auto;">
+              {{ certification.name }}
+              {% endif %}
+            </h3>
+            <h4 class="resume-item-details" itemprop="cert-start-date">{{ certification.startDate }} &bull; {{ certification.endDate }}</h4>
+          </div>
+          {% endfor %}          
+        </section>
+        {% endif %}
+      <!-- end Certifications -->
       {% endif %}
 
       {% if site.resume_section_skills %}

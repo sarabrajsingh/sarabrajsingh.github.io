@@ -1,0 +1,14 @@
+# https://schema.org/Certification
+- "@type": "EducationalOccupationalCredential"
+  name: "Terraform Associate (003)"
+  description: "Validates expertise with Terraform."
+  issuer:
+    "@type": "Organization"
+    name: "HashiCorp"
+    url: "https://www.hashicorp.com/certification/terraform-associate"
+  startDate: "March 2024"
+  endDate: "March 2026"
+  validFor:
+    "@type": "Duration"
+    name: "2 years"
+  badgeUrl: "https://www.datocms-assets.com/2885/1645553469-hcta0-badge.png?fit=max&fm=webp&q=80&w=2500"
